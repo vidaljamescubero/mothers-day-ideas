@@ -1,0 +1,218 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+/* block 1 */
+
+.mday-block-1 {
+    min-height: 50vh;
+    width: 100%;
+    background-image: url(https://au-assets.s3.us-west-2.amazonaws.com/assets/campaigns/2022/Q2/04-01+Mothers+Day+Ideas/hero-desktop.jpg);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+     {
+    .mday-block-1 {
+        height: calc(100vw * 1.1493);
+        background-image: url(https://au-assets.s3.us-west-2.amazonaws.com/assets/campaigns/2022/Q2/04-01+Mothers+Day+Ideas/hero-mobile.jpg);
+        background-position: center;
+        background-size: cover;
+        background-repeat: no-repeat;
+    }
+}
+
+/* block 2 */
+
+.mday-block-2-subhead {
+    font-family: 'Arial';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 15px;
+    line-height: 17px;
+    text-align: center;
+    letter-spacing: 0.2em;
+    text-transform: uppercase;
+    color: #000000;
+    margin-top: 75px;
+    
+}
+
+.mday-block-2-header {
+    font-family: 'Crimson Text';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 35px;
+    line-height: 45px;
+    text-align: center;
+    color: #000000;
+    margin-top: 35px;
+    margin-bottom: 50px;
+}
+
+.mday-block-2-1 {
+    display: flex;
+    max-width: 1400px;
+    margin: 0 auto;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.mday-block-2-1-card {
+    width: 250px;
+    height: 306px;
+    position: relative;
+    margin: 12px;
+}
+
+.mday-block-2-1-card-image {
+    position: absolute;
+    width: 100%;
+    height: 234px;
+    top: 0;
+}
+
+.mday-block-2-1-card-image img {
+    height: 100%;
+    width: 100%;
+}
+
+.mday-block-2-1-card-cta {
+    position: absolute;
+    width: 100%;
+    height: 58px;
+    bottom: 0; 
+    background: #474933;
+    border-radius: 4px;    
+}
+
+.mday-block-2-1-card-cta a {
+    width: 100%;
+    height: 100%;
+    font-family: 'Arial';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 15px;
+    line-height: 17px;
+    letter-spacing: 0.2em;
+    text-transform: uppercase;
+    color: #FFFFFF;
+    text-decoration: none !important;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+
+.mday-block-2-mobile {
+    max-width: 375px;
+    margin: 0 auto;
+}
+
+.mday-block-2-1-mobile-1 {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+}
+
+.mday-block-2-1-mobile-card {
+    height: 195px;
+    width: 163px;
+    position: relative;
+    margin: 8px;
+}
+
+.mday-block-2-1-mobile-card-image {
+    position: absolute;
+    top: 0;
+    height: 145px;
+    width: 100%;;
+}
+
+.mday-block-2-1-mobile-card-image img {
+    height: 100%;
+    width: 100%;
+}
+
+.mday-block-2-1-mobile-card-cta {
+    width: 100%;
+    height: 42px;
+    position: absolute;
+    bottom: 0;
+    background: #474933;
+    border-radius: 4px;
+}
+
+.mday-block-2-1-mobile-card-cta a{
+    width: 100%;
+    height: 100%;
+    font-family: 'Arial';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 14px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    letter-spacing: 0.2em;
+    text-transform: uppercase;
+    color: #FFFFFF;
+    text-decoration: none !important;
+}
+
+.mday-block-2-1-mobile-2 {
+    margin: 8px auto;
+    max-width: 342px;
+    height: 195px;
+    position: relative;
+}
+
+.mday-block-2-mobile {
+    display: none;
+}
+
+.mday-block-2-subhead-2 {
+    margin: 45px auto 100px auto;
+    max-width: 1130px;
+    padding: 0 35px;
+    text-align: center;
+}
+
+.mday-block-2-subhead-2 span {
+    font-family: 'Crimson Text';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 22px;
+    line-height: 35px;
+    color: #000000;
+}
+
+@media only screen and (max-width: 769px) {
+    
+    .mday-block-2-desktop {
+        display: none;
+    }
+
+    .mday-block-2-mobile {
+        display: block;
+    }
+
+    .mday-block-2-subhead {
+        font-size: 12px;
+        line-height: 20px;
+    }
+    
+    .mday-block-2-header {
+        font-size: 30px;
+        line-height: 41px;
+    }
+
+    .mday-block-2-subhead-2 {
+        max-width: 500px;
+        margin: 45px auto 50px auto;
+    }
+}
