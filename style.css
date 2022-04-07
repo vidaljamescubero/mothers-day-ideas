@@ -6,22 +6,40 @@
 /* block 1 */
 
 .mday-block-1 {
-    min-height: 50vh;
-    width: 100%;
+    max-width: calc(329.952vh);
+    height: calc(30.3075vw);
     background-image: url(https://au-assets.s3.us-west-2.amazonaws.com/assets/campaigns/2022/Q2/04-01+Mothers+Day+Ideas/hero-desktop.jpg);
     background-position: center;
     background-size: cover;
     background-repeat: no-repeat;
 }
 
-     {
+.mday-block-1-container {
+    width: 100%;
+    height: 100%;
+}
+
+.mday-block-1-mobile {
+    display: none;
+}
+
+@media only screen and (max-width: 769px) {
     .mday-block-1 {
-        height: calc(100vw * 1.1493);
+        max-width: calc(100vh);
+        height: calc(100vw);
         background-image: url(https://au-assets.s3.us-west-2.amazonaws.com/assets/campaigns/2022/Q2/04-01+Mothers+Day+Ideas/hero-mobile.jpg);
         background-position: center;
         background-size: cover;
         background-repeat: no-repeat;
     }
+    
+    .mday-block-1-desktop {
+        display: none;
+    }
+
+    .mday-block-1-mobile {
+        display: block;
+    } 
 }
 
 /* block 2 */
@@ -314,6 +332,11 @@
     position: relative;
 }
 
+.mday-block-3-grid-box-link img {
+    height: 100%;
+    width: 100%;
+}
+
 .mday-block-3-grid-box-quote {
     height: 100%;
     width: 100%;
@@ -540,5 +563,155 @@
 
     .mday-block-3-grid-box-quote-sign {
         font-size: 88px;
+    }
+}
+
+/* block 4 */
+
+.mday-block-4-container {
+    margin: 50px auto 70px auto;
+    height: 441px;
+    width: 1253px;
+    background-image: url(https://au-assets.s3.us-west-2.amazonaws.com/assets/campaigns/2022/Q2/04-01+Mothers+Day+Ideas/block+4-1.jpg);
+    background-position: center;
+    background-size: contain;
+    background-repeat: no-repeat;
+    position: relative;
+}
+
+.mday-block-4-inside-container {
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    width: 87.71%;
+    height: 63.94%;
+    background-image: url(https://au-assets.s3.us-west-2.amazonaws.com/assets/campaigns/2022/Q2/04-01+Mothers+Day+Ideas/block+4-2.jpg);
+    background-position: center;
+    background-size: contain;
+    background-repeat: no-repeat;
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    flex-direction: column;
+}
+
+.mday-block-4-body {
+    font-family: 'Crimson Text';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 22px;
+    line-height: 30px;
+    color: #000000;
+    width: 254px;
+    margin: 0 0 15px 60px;
+}
+
+.mday-block-4-cta {
+    width: 254px;
+    height: 42px;
+    background: #3A3B31;
+    border-radius: 4px; 
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-decoration: none !important;
+    margin: 15px 0 0 60px;
+}
+
+.mday-block-4-cta span {
+    font-family: 'Lato';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 11px;
+    line-height: 13px;
+    text-align: center;
+    letter-spacing: 3px;
+    text-transform: uppercase;
+    color: #FFFFFF;
+}
+
+@media only screen and (max-width: 1294px) {
+    .mday-block-4-container {
+        margin: 50px 20px 70px 20px;
+        width: calc(100vw - 40px);
+        height: calc((100vw - 40px) * 0.35195);
+    }
+}
+
+@media only screen and (max-width: 1025px) {
+    .mday-block-4-body {
+        margin: 0 0 10px 45px;
+    }
+
+    .mday-block-4-cta {
+        margin: 10px 0 0 45px;
+    }
+}
+
+@media only screen and (max-width: 900px) {
+    .mday-block-4-body {
+        margin: 0 0 5px 30px;
+    }
+
+    .mday-block-4-body {
+        font-size: 18px;
+        line-height: 24px;
+        width: 235px;
+    }
+
+    .mday-block-4-cta {
+        margin: 5px 0 0 30px;
+    }
+}
+
+
+@media only screen and (max-width: 700px) {
+    .mday-block-4-container {
+        max-width: 360px;
+        height: 132px;
+        margin: 25px auto 114px auto;
+    }
+
+    .mday-block-4-inside-container {
+        width: 254px;
+        height: 155px;
+        top: 57px;
+        left: 23px;
+        background-image: none;
+    }
+
+    .mday-block-4-body {
+        font-weight: 400;
+        font-size: 22px;
+        line-height: 30px;
+        margin: 0 0 0 0;
+        width: 254px;
+        height: 106px;
+    }
+
+    .mday-block-4-cta {
+        background: #000000;
+        margin: 0 !important;
+    }
+
+    .mday-block-4-mobile-bg {
+        width: 100vw;
+        height: calc(100vw * 0.494444);
+        background-image: url(https://au-assets.s3.us-west-2.amazonaws.com/assets/campaigns/2022/Q2/04-01+Mothers+Day+Ideas/block+4-3.jpg);
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: contain;
+    }
+}
+
+@media only screen and (max-width: 400px) {
+    .mday-block-4-inside-container {
+        left: 10px;
+    }
+}
+
+@media only screen and (max-width: 350px) {
+    .mday-block-4-inside-container {
+        left: 10px;
     }
 }
