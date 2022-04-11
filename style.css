@@ -380,6 +380,16 @@
         width: 100%;
     }
 
+    .mday-block-3-grid-2-link-a {
+        position: absolute;
+        top: 0;
+        left: 0;
+        height: 100%;
+        width: 100%;
+        z-index: 1;
+        cursor: pointer;
+    }
+
     .mday-block-3-grid-box-quote {
         height: 100%;
         width: 100%;
@@ -443,6 +453,7 @@
         justify-content: center;
         cursor: pointer;
         transition: 0.2s ease-in-out;
+        z-index: 2;
     }
 
     .mday-block-3-grid-box-cta-add {
@@ -1180,7 +1191,7 @@
         line-height: 35px;
         text-align: center;
         color: #474933;
-        width: 480px;
+        width: 490px;
     }
 
     .mday-block-7-mobile {
@@ -1249,7 +1260,7 @@
         line-height: 30px;
         text-align: center;
         color: #474933;
-        width: 330px;
+        width: 342px;
     }
 
     .mday-block-7-mobile-subhead span {
@@ -1292,7 +1303,7 @@
         .mday-block-7-text-body span {
             font-size: calc(22px * 0.8);
             line-height: calc(35px * 0.8);
-            width: calc(480px * 0.8);
+            width: calc(490px * 0.8);
         }
 
         .mday-block-7-text-contianer-pos {
@@ -1318,7 +1329,7 @@
         .mday-block-7-text-body span {
             font-size: calc(22px * 0.6);
             line-height: calc(35px * 0.6);
-            width: calc(480px * 0.6);
+            width: calc(490px * 0.6);
         }
 
         .mday-block-7-text-contianer-pos {
