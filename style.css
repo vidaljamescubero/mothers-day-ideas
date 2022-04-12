@@ -23,6 +23,67 @@
         overflow: hidden;
     }
 
+    .mday-block-1-overlay-container {
+        position: absolute;
+        z-index: 2;
+        right: 20px;
+        bottom: 20px;
+        width: 353px;
+        height: 284px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-direction: column;
+        background: #474933;
+        border-radius: 40px 40px 0px 40px;
+    }
+
+    .mday-block-1-overlay-header {
+        font-family: 'Montserrat';
+        font-style: normal;
+        font-weight: 600;
+        font-size: 35px;
+        line-height: 48px;
+        text-align: center;
+        letter-spacing: -0.02em;
+        color: #FFFFFF;
+    }
+
+    .mday-block-1-overlay-subhead {
+        font-family: 'Arial';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 15px;
+        line-height: 17px;
+        text-align: center;
+        letter-spacing: 0.2em;
+        text-transform: uppercase;
+        color: #FFFFFF;
+        margin: 23px 0 26px 0;
+    }
+
+    .mday-block-1-overlay-cta {
+        width: 220px;
+        height: 42px;
+        background: #FAB767;
+        border-radius: 4px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .mday-block-1-overlay-cta span {
+        font-family: 'Lato';
+        font-style: normal;
+        font-weight: 600;
+        font-size: 11px;
+        line-height: 13px;
+        text-align: center;
+        letter-spacing: 3px;
+        text-transform: uppercase;
+        color: #474933;
+    }
+
     .mday-block-1-video-desktop-container {
         position: absolute;
         z-index: 0;
@@ -83,6 +144,38 @@
         .mday-block-1-mobile {
             display: block;
         } 
+
+        .mday-block-1-overlay-container {
+            width: 252px;
+            height: 193px;
+            left: 13px;
+            bottom: 9px;
+            right: 0;
+            border-radius: 40px 40px 40px 0px;
+        }
+
+        .mday-block-1-overlay-header {
+            font-size: 25px;
+            line-height: 34px;
+        }
+
+        .mday-block-1-overlay-subhead {
+            font-size: 13px;
+            line-height: 15px;
+            margin: 9px 0 13px 0;
+        }
+
+        .mday-block-1-overlay-cta {
+            width: 192px;
+            height: 42px;   
+        }
+
+        .mday-block-1-overlay-cta span{
+            font-size: 12px;
+            line-height: 14px;
+        }
+
+
     }
 
     /* block 2 */
